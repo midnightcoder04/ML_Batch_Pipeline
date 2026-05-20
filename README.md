@@ -139,7 +139,7 @@ diff m1.json m2.json   # no output = identical
 
 ---
 
-## Deliverables
+## File Structure
 
 | File | Purpose |
 |------|---------|
@@ -153,14 +153,3 @@ diff m1.json m2.json   # no output = identical
 | `tests/test_pipeline.py` | 37-test validation suite |
 
 ---
-
-## Evaluation rubric
-
-| Criterion | Weight |
-|-----------|--------|
-| Correctness & determinism | 40% |
-| Dockerization | 25% |
-| Code quality | 20% |
-| Observability | 15% |
-
-Auto-fail conditions: Docker build/run fails · `metrics.json` not written · non-deterministic outputs · hard-coded paths.
